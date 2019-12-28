@@ -1,3 +1,5 @@
+> This fork includes a hacky workaround for webpack since that was faster than writing a hacky workaround in webpack's config.
+
 This branch adds an optional field to the options given to the validateXML function.
 If the user adds a field ```format``` with the content ```rng```, then the
 argument used will be ```--relaxng``` instead of ```--schema```. Otherwise
